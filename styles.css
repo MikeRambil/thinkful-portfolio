@@ -1,0 +1,127 @@
+* {
+  /* Variable Declaration */
+  --img-width: 300px;
+}
+
+header {
+  margin-inline: 30px;
+}
+
+body {
+  background-color: #000c0f;
+  color: rgb(150, 150, 149);
+  font-family: monospace, sans-serif;
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  margin: 5rem;
+  max-width: var(--img-width);
+}
+
+a {
+  color: azure;
+  background-color: #000c0f;
+  border-bottom: 2px dashed #42d4c8;
+  border-right: 2px dashed #42d4c8;
+  border-bottom-right-radius: 10px;
+  padding: 2px 5px;
+  margin: 5px;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(112, 8, 112);
+  border-bottom: 2px solid #42d4c8;
+}
+
+ul li {
+  color: #db078a;
+  font-size: 1.2rem;
+}
+
+ul li:hover {
+  color: #52dfd4;
+  cursor: pointer;
+}
+ol li {
+  color: #42d4c8;
+
+  font-size: 1.2rem;
+}
+
+ol li:hover {
+  color: #db078a;
+  cursor: pointer;
+}
+
+hr {
+  height: 2px;
+  background-image: linear-gradient(to right, #214ff4, #db078a, #52dfd4);
+  border: none;
+  border-radius: 20px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  margin-top: 50px;
+  border: 2px dashed #db078a;
+  padding: 90px 90px 0;
+  margin: 0 90px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-logo {
+  text-transform: uppercase;
+  font-weight: 900;
+
+  /* Text Gradient for logo + auto-prefixer for support */
+  background-image: linear-gradient(to right, #214ff4, #db078a, #52dfd4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header-ul-container {
+  display: flex;
+  gap: 5rem;
+}
+
+.main-image-container {
+  position: relative;
+}
+
+.main-image {
+  position: relative;
+  border-radius: 9%;
+
+  background-image: linear-gradient(
+    rgba(33, 79, 244, 0.1),
+    rgba(0, 25, 82, 0.1),
+    rgba(82, 223, 212, 0.1)
+  );
+}
+
+.footer-contact-us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -3,7 +3,97 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Portfolio | Micheal Palliparambil</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="header-container">
+      <h1 class="brand-logo">Micheal Palliparambil</h1>
+      <nav class="header-nav-container">
+        <ul class="header-ul-container">
+          <li>Home</li>
+          <li>About me</li>
+        </ul>
+      </nav>
+    </header>
+    <hr style="height: 4px" />
+    <!-- Main -->
+    <main>
+      <article class="flex hero-section">
+        <img
+          src="./images/micheal-palliparambil(mike-rambil).jpg"
+          alt="picture-of-micheal-palliparambil"
+          class="main-image"
+        />
+        <h2 class="brand-logo">Micheal Palliparambil</h2>
+        <div style="max-width: 30rem">
+          <h3 style="text-align: left; color: rgb(39, 189, 84)">About me</h3>
+          <p>I'm a software developer located in Chicago, Illinois!</p>
+          <p>
+            Hey there, I'm Mike – a 22-year-old full-stack developer on an
+            exciting journey through the world of coding.
+          </p>
+          <p>
+            Currently, I'm pursuing my studies at Thinkful, which is helping me
+            fine-tune my skills and knowledge in the realm of software
+            development. I specialize in full-stack development, utilizing
+            modern web technologies to create seamless and visually appealing
+            user interfaces.
+          </p>
+          <p style="font-size: 14px; margin: 10px; color: rgb(39, 189, 84)">
+            Skills:-
+          </p>
+          <ol
+            style="
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+              color: aqua;
+            "
+          >
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>CSS</li>
+          </ol>
+        </div>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-contact-us">
+        <div style="max-width: 50%">
+          <section>
+            <h3 class="brand-logo">Contact ME!</h3>
+            <h4 style="font-size: larger; color: bisque">
+              Have an exciting project you need help with?
+            </h4>
+            <p style="color: blueviolet">
+              Together, let's build a digital world that's secure, efficient,
+              and boundless. Send me an email or contact me via instant message!
+            </p>
+          </section>
+        </div>
+        <div style="display: grid; gap: 30px">
+          <a href="mailto:mikerambil@gmail.com">mikerambil@gmail.com</a>
+          <a href="tel:+630-550-8561">+630-550-8561</a>
+          <a
+            href="https://www.linkedin.com/in/mike-rambil/"
+            target="_blank"
+            rel="noopener"
+            >Github</a
+          >
+        </div>
+      </div>
+      <p style="text-align: center; font-size: 12px">
+        © 2023 Micheal Palliparambil
+      </p>
+      <hr />
+    </footer>
+  </body>
 </html>
